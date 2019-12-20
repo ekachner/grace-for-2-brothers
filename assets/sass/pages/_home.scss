@@ -1,1 +1,195 @@
 // HOME
+
+.homeHero {
+    background-image: url(/assets/imgs/hero-image.png);
+    width: 100vw;
+    height: 996px;
+
+    .homeHeroContent1 {
+        @include basic-flex(center, flex-end, column);
+        margin: 80px 20px 20px 0;
+
+        h1 {
+            width: 721px;
+            height: auto;
+            color: white;
+            font-size: 63px;
+            font-family: Optima-Regular;
+            font-weight: normal;
+            text-align: center;
+            letter-spacing: 5.45px;
+        }
+
+        h2 {
+            width: 804px;
+            height: auto;
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-family: Optima-Regular;
+            font-weight: normal;
+            text-align: center;
+            letter-spacing: 2.01px;
+            line-height: 42px;
+            margin: 50px 0;
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            margin: 0px 310px;
+        }
+    }
+
+    .homeHeroContent2 {
+        @include basic-flex(flex-end, center, column)
+        width: 100vw;
+        height: 310px;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        font-family: Optima-Bold;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 1.84px;
+        line-height: 47px;
+    }
+}
+
+
+
+.missionStatement {
+    width: 1440px;
+    height: 549px;
+    background: rgb(193, 223, 246);
+    border-radius: 0px;
+
+    .missionContent {
+        @include basic-flex(space-around, center, row);
+
+        .missionText {
+            @include basic-flex(center, center, column);
+
+            h1 {
+                @include basic-flex(flex-start, flex-start, row)
+                width: auto;
+                height: auto;
+                color: black;
+                font-size: 50px;
+                font-family: Optima-Bold;
+                font-weight: bold;
+                letter-spacing: 4.28px;
+                margin: 50px 200px 20px 0;
+            }
+
+            h2 {
+                width: 593px;
+                height: auto;
+                color: black;
+                font-size: 23px;
+                font-family: Optima-Regular;
+                font-weight: normal;
+                letter-spacing: 1.93px;
+                text-indent: 25px; 
+                margin: 0 51px 0 86px;
+            }
+
+            button {
+                margin: 50px 100px 50px 0;
+            }
+        }
+
+        img {
+            @include basic-flex;
+            width: 675px;
+            height: 446px;
+            margin: 51px 35px 51px 0;
+
+        }
+    }
+}
+
+
+
+.locations {
+    @include basic-flex(space-around, center, column );
+    background-image: url(/assets/imgs/sunflower-image.png); 
+    height: 960px;
+    width: 100vw;
+
+    h1 {
+        width: auto;
+        height: auto;
+        color: rgb(255, 255, 255);
+        font-size: 65px;
+        font-family: Optima-Regular;
+        font-weight: normal;
+        text-align: center;
+        letter-spacing: 5.45px;
+        margin-top: 150px;
+    }
+
+
+    .location-contents {
+        @include basic-flex(space-between, flex-start, row);
+        height: 600px;
+        width: 90vw;
+
+        h1 {
+            text-align: center;
+            width: auto;
+            height: 50px;
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            font-family: Optima-Regular;
+            font-weight: normal;
+            letter-spacing: 4.19px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            height: auto;
+            width: auto;
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+            font-family: Optima-Regular;
+            font-weight: normal;
+            text-align: center;
+            letter-spacing: 2.68px;
+            line-height: 87px;
+        }
+
+        #laramie {
+            .cta {
+            margin: 30px 0 0 130px;
+            }
+        }
+
+
+    }
+}
+
+
+
+.lightBluePanels {
+    background: rgb(193, 223, 246);
+    height: auto;
+    width: 100vw;
+}
+
+
+
+.sponsorFooter {
+    width: 100vw;
+    height: auto;
+    background: rgb(25, 27, 25);
+    color: white;
+
+    .sponsorLogos {
+        width: 100vw;
+        height: 180px;
+        @include basic-flex(space-between, center, row);
+
+        .logo {
+            margin: 0 100px;
+        }
+    }
+}

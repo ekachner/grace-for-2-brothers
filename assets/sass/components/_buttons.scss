@@ -1,1 +1,21 @@
 // BUTTONS
+
+    .cta {
+        height: 43px;
+        width: auto;
+        padding: 0 20px;
+        line-height: 32px;
+        background-color: rgb(1, 43, 64);
+        color: white;
+        border-radius: 21.5px;
+        font-size: 17px;
+        font-weight: bold;
+        border: none;
+        font-family: Helvetica-Bold;
+        letter-spacing: 1.43px;
+        &:hover {
+            cursor: pointer;
+            background-color: #005ABE;
+            transition: 0.3s;
+        }
+    }

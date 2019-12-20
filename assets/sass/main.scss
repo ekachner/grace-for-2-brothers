@@ -6,6 +6,13 @@
 @import 'abstracts/placeholders';
 @import 'abstracts/mixins';
 
+@import 'components/buttons';
+
+@import 'layout/navbar';
+@import 'layout/footer';
+
+@import 'pages/home';
+
 @import 'themes/theme';
 
 // MASTER OVERRIDES BELOW

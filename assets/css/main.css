@@ -51,4 +51,367 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.cta {
+  height: 43px;
+  width: auto;
+  padding: 0 20px;
+  line-height: 32px;
+  background-color: #012b40;
+  color: white;
+  border-radius: 21.5px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  font-family: Helvetica-Bold;
+  letter-spacing: 1.43px;
+}
+
+.cta:hover {
+  cursor: pointer;
+  background-color: #005ABE;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.homeHero .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  height: 126px;
+}
+
+.homeHero .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  height: 19px;
+}
+
+.homeHero .navbar ul li {
+  width: auto;
+  height: 19px;
+  color: white;
+  font-family: Optima-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.34px;
+  text-align: center;
+  margin: 0 18px;
+}
+
+.homeHero .navbar ul li:last-child {
+  margin: 0 72px 0 18px;
+}
+
+.homeHero {
+  background-image: url(/assets/imgs/hero-image.png);
+  width: 100vw;
+  height: 996px;
+}
+
+.homeHero .homeHeroContent1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 80px 20px 20px 0;
+}
+
+.homeHero .homeHeroContent1 h1 {
+  width: 721px;
+  height: auto;
+  color: white;
+  font-size: 63px;
+  font-family: Optima-Regular;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 5.45px;
+}
+
+.homeHero .homeHeroContent1 h2 {
+  width: 804px;
+  height: auto;
+  color: white;
+  font-size: 24px;
+  font-family: Optima-Regular;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 2.01px;
+  line-height: 42px;
+  margin: 50px 0;
+}
+
+.homeHero .homeHeroContent1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 310px;
+}
+
+.homeHero .homeHeroContent2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 310px;
+  color: white;
+  font-size: 22px;
+  font-family: Optima-Bold;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.84px;
+  line-height: 47px;
+}
+
+.missionStatement {
+  width: 1440px;
+  height: 549px;
+  background: #c1dff6;
+  border-radius: 0px;
+}
+
+.missionStatement .missionContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.missionStatement .missionContent .missionText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.missionStatement .missionContent .missionText h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  height: auto;
+  color: black;
+  font-size: 50px;
+  font-family: Optima-Bold;
+  font-weight: bold;
+  letter-spacing: 4.28px;
+  margin: 50px 200px 20px 0;
+}
+
+.missionStatement .missionContent .missionText h2 {
+  width: 593px;
+  height: auto;
+  color: black;
+  font-size: 23px;
+  font-family: Optima-Regular;
+  font-weight: normal;
+  letter-spacing: 1.93px;
+  text-indent: 25px;
+  margin: 0 51px 0 86px;
+}
+
+.missionStatement .missionContent .missionText button {
+  margin: 50px 100px 50px 0;
+}
+
+.missionStatement .missionContent img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 675px;
+  height: 446px;
+  margin: 51px 35px 51px 0;
+}
+
+.locations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(/assets/imgs/sunflower-image.png);
+  height: 960px;
+  width: 100vw;
+}
+
+.locations h1 {
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 65px;
+  font-family: Optima-Regular;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 5.45px;
+  margin-top: 150px;
+}
+
+.locations .location-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 600px;
+  width: 90vw;
+}
+
+.locations .location-contents h1 {
+  text-align: center;
+  width: auto;
+  height: 50px;
+  color: white;
+  font-size: 50px;
+  font-family: Optima-Regular;
+  font-weight: normal;
+  letter-spacing: 4.19px;
+  margin: 20px 0;
+}
+
+.locations .location-contents h2 {
+  height: auto;
+  width: auto;
+  color: white;
+  font-size: 32px;
+  font-family: Optima-Regular;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 2.68px;
+  line-height: 87px;
+}
+
+.locations .location-contents #laramie .cta {
+  margin: 30px 0 0 130px;
+}
+
+.lightBluePanels {
+  background: #c1dff6;
+  height: auto;
+  width: 100vw;
+}
+
+.sponsorFooter {
+  width: 100vw;
+  height: auto;
+  background: #191b19;
+  color: white;
+}
+
+.sponsorFooter .sponsorLogos {
+  width: 100vw;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sponsorFooter .sponsorLogos .logo {
+  margin: 0 100px;
+}
 /*# sourceMappingURL=main.css.map */

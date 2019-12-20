@@ -1,1 +1,33 @@
 // NAVBAR
+
+.homeHero {
+
+    .navbar {
+        @include basic-flex(space-between, center, row);
+        width:100vw;
+        height: 126px;
+
+        ul {
+            @include basic-flex(space-around, center, row);
+            width: auto;
+            height: 19px;
+
+            li {
+                width: auto;
+                height: 19px;
+                color: rgb(255, 255, 255);
+                font-family: Optima-Bold;
+                font-size: 16px;
+                font-weight: bold;
+                letter-spacing: 1.34px;
+                text-align: center;
+                margin: 0 18px;
+                
+
+                &:last-child{
+                    margin: 0 72px 0 18px;
+                }
+            }//li//
+        }//ul//
+    } //navbar//
+}//homeHero//

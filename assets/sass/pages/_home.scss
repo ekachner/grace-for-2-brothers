@@ -170,9 +170,189 @@
 
 
 .lightBluePanels {
+    @include basic-flex(space-around, center , column);
     background: rgb(193, 223, 246);
     height: auto;
     width: 100vw;
+
+    .howYouCanHelp {
+        height: auto;
+        width: auto;
+        @include basic-flex(space-around, center, column);
+        text-align: center;
+        padding: 50px;
+        color: black;
+        
+
+        h1 {
+            @include basic-flex;
+            font-size: 51px;
+            font-family: Optima-BoldItalic;
+            font-weight: bolditalic;
+            letter-spacing: 4.28px;
+            margin-bottom: 100px;
+        }
+
+        .helpingContent {
+            @include basic-flex(space-around, center, row);
+            height: 250px;
+            width: 90vw;
+            color: black;
+            font-size: 23px;
+            font-family: Optima-Regular;
+            font-weight: normal;
+            text-align: center;
+            letter-spacing: 1.93px;
+            line-height: 28px;
+
+            .volunteer {
+                h2{
+                    @include basic-flex;
+                    font-size: 27px;
+                    font-family: Optima-BoldItalic;
+                    font-weight: bolditalic;
+                    letter-spacing: 2.26px;
+                    margin-bottom: 40px;
+                }
+
+                h3 {
+                    height: auto;
+                    width: 450px;
+                }
+
+                .cta {
+                    margin-top: 50px;
+                    padding: 0 30px;
+                }
+            }
+
+            .donate {
+                h2{ 
+                    @include basic-flex;
+                    font-size: 27px;
+                    font-family: Optima-BoldItalic;
+                    font-weight: bolditalic;
+                    letter-spacing: 2.26px;
+                    margin-bottom: 40px;
+                }
+
+                h3 {
+                    height: auto;
+                    width: 450px;
+                }
+
+                .cta {
+                    margin-top: 50px;
+                    padding: 0 40px;
+                }
+            }
+        }
+    } //howYouCanHelp
+
+    .events {
+        height: auto;
+        width: auto;
+        @include basic-flex(space-around, center, column);
+        padding: 50px;
+        margin-top: 50px;
+
+        h1 {
+            @include basic-flex;
+            font-size: 51px;
+            font-family: Optima-BoldItalic;
+            font-weight: bolditalic;
+            letter-spacing: 4.28px; 
+            margin-bottom: 30px;
+        }
+
+        .eventsContent {
+            height: auto;
+            width: auto;
+            @include basic-flex(space-between, center, row);
+            margin-bottom: 20px;
+
+            .walkOfGrace2019 {
+                h1 {
+                    @include basic-flex;
+                    font-size: 27px;
+                    font-family: Optima-BoldItalic;
+                    font-weight: bolditalic;
+                    letter-spacing: 2.26px;
+                }
+
+                padding: 20px; 
+                
+            }
+
+            .embraceGraceGala2019 {
+                h1 {
+                    @include basic-flex;
+                    font-size: 27px;
+                    font-family: Optima-BoldItalic;
+                    font-weight: bolditalic;
+                    letter-spacing: 2.26px;
+                }
+
+                padding: 20px;
+                
+            }
+
+        } //eventsContent 
+    } //events
+
+    .factsAboutSuicide {
+        height: auto;
+        width: auto;
+        @include basic-flex;
+        padding: 50px;
+
+        .factsContent {
+            height: auto;
+            width: 80vw;
+            @include basic-flex(space-between, center, column);
+
+
+            h1{
+                @include basic-flex;
+                font-size: 51px;
+                font-family: Optima-BoldItalic;
+                font-weight: bolditalic;
+                letter-spacing: 4.28px;
+            }
+
+            ul {
+                height: auto;
+                width: 80vw;
+            }
+
+
+        } //factsContent
+    } //factsAboutSuicide
+
+    .footerInfo {
+        height: auto;
+        width: auto;
+        @include basic-flex(center, center, column);
+        padding: 50px;
+
+        img {
+            width: 759px;
+            height: auto;
+        }
+
+        p {
+            width: auto;
+            height: auto;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            font-family: Optima-BoldItalic;
+            font-weight: bolditalic;
+            text-align: center;
+            letter-spacing: 1.34px;
+        }
+
+    } //footerInfo
+
 }
 
 
@@ -182,6 +362,10 @@
     height: auto;
     background: rgb(25, 27, 25);
     color: white;
+    font-size: 20px;
+    font-family: Optima-Regular;
+    text-align: center;
+    letter-spacing: 1.68px;
 
     .sponsorLogos {
         width: 100vw;

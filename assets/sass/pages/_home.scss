@@ -318,14 +318,28 @@
                 font-family: Optima-BoldItalic;
                 font-weight: bolditalic;
                 letter-spacing: 4.28px;
+                margin-bottom: 30px;
             }
 
             ul {
                 height: auto;
                 width: 80vw;
+                color: black;
+                font-size: 23px;
+                font-family: Optima-Regular;
+                font-weight: normal;
+                letter-spacing: 1.93px;
+                line-height: 70px;
+                margin-bottom: 30px;
+                list-style-type: disc;
+
+                li {
+                    &:nth-child(3){
+                        line-height: 28px;
+                        padding: 21px 0;
+                    }
+                }    
             }
-
-
         } //factsContent
     } //factsAboutSuicide
 
